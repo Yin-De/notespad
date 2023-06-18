@@ -5,8 +5,6 @@ import 'package:hive/hive.dart';
 
 class ListProvider extends ChangeNotifier{
 
-  List not=[{"title":'muha',"des":"boy"},{"title":'muha',"des":"boy"},{"title":'muha',"des":"boy"},{"title":'muha',"des":"boy"},];
-
   List datas=[];
   final note=Hive.box('note');
   void items({ind})async{
